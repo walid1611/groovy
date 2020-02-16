@@ -5,16 +5,13 @@ import java.io.*
 def example1() {
 
 
-    try {
-        def newFile = new File("resources" ,"test.txt")
+ 
+        def newFile = new File("vars" ,"test.txt")
 
         newFile.createNewFile()
 
 
-    } catch(e) {
-        echo 'There was an error'
-    }
-}
+
 
 def example2() {
     println 'Hello from example2'
