@@ -1,14 +1,14 @@
 import java.io.*
 
-
+def outputLines = [
+        'Line one of output example',
+        'Line two of output example',
+        'Line three of output example'
+]
 
 def example1() {
 
-    def outputLines = [
-            'Line one of output example',
-            'Line two of output example',
-            'Line three of output example'
-    ]
+
 
 
 
