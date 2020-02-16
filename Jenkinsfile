@@ -1,10 +1,10 @@
 node {
 
-stage {
+stage ('test') {
 
 sh """  echo test ok """
 
-}
+
 
 
 
