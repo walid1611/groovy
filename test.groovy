@@ -1,3 +1,5 @@
+import groovyjarjarantlr.collections.List
+
 import java.io.*
 
 def outputLines = [
@@ -6,20 +8,17 @@ def outputLines = [
         'Line three of output example'
 ]
 
-def example1() {
+def Apppend_File = { List ss ->
+
+
+    for (i  in $ss ){
+        def newFile1 = new File("/var/lib/jenkins/workspace/groovy/vars" ,"test.txt").append("\n"+i)
+
+    }
 
 
 
 
-
-        def newFile1 = new File("/var/lib/jenkins/workspace/groovy/vars" ,"test.txt").append {
-
-            writer -> outputLines.each {
-                line -> writer.writeLine(line)
-
-            }
-
-        }
 
 
 
