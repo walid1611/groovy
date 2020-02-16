@@ -26,9 +26,8 @@ def outputLines = [
 ]
 
 
-for it in outputLines {
-println item }
-
+for (i  in outputLines ){
+println i
 
 }
 
