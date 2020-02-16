@@ -4,7 +4,7 @@ class test {
 
         def a = 21
 
-        println a
+      
 
 
 
