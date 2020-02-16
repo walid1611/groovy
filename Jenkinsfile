@@ -11,7 +11,7 @@ checkout scm
 
 stage ('load groovy') {
 
- code = load 'example.groovy'
+ code = load 'test.groovy'
 
 }
 
