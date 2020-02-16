@@ -1,9 +1,16 @@
+import java.io.*
+
+
+
 def example1() {
 
 
     try {
-    def lis  = new File( "/var/lib/jenkins/workspace/groovy",'haiku.txt') as String []
-   println lis[0]
+        def newFile = new File(resources ,"est.txt")
+
+
+
+
     } catch(e) {
         echo 'There was an error'
     }
