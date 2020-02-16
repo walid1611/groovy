@@ -1,5 +1,7 @@
 def example1() {
-    println 'Hello from example1'
+    def lis  = new File('haiku.txt') as String []
+    println lis
+
 }
 
 def example2() {
