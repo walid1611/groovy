@@ -1,4 +1,3 @@
-import java.io.*
 node {
 
 
@@ -10,21 +9,22 @@ checkout scm
 
 
 
-stage ('test-groovy') {
+stage ('load groovy') {
+
+ code = load 'example.groovy'
+
+}
 
 
- (1..4).each {
- println it
+stage ('excute groovy') {
 
- }
-
-
-
+ code.example1()
+}
 
 
 
 }
-}
+
 
 
 
