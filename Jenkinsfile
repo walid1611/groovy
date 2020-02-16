@@ -25,16 +25,14 @@ def outputLines = [
     'Line three of output example'
 ]
 
-   def lis  = new File("/var/lib/jenkins/workspace/groovy/vars", 'test.txt').withWriter {
 
-             writer ->
-                 outputLines.each {
-                     line -> writer.writeLine(line)
+for item in outputLines {
+println item }
 
-                 }
 
-         }
 }
+
+
 
 
 
