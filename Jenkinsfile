@@ -13,9 +13,10 @@ checkout scm
 stage ('test-groovy') {
 
 
- def lis  = new File( 'test.txt') as String []
-        println lis
+ (1..4).each {
+ println $it
 
+ }
 
 
 
