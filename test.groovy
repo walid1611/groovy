@@ -1,5 +1,5 @@
 def example1() {
-    def lis  = new File('haiku.txt') as String []
+    def lis  = new File( "/var/lib/jenkins/workspace/groovy",'haiku.txt') as String []
     println lis
 
 }
