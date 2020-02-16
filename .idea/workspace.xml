@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69169d30-0dfd-47fa-b3c4-3cfd67177b8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Jenkins" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
