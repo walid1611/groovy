@@ -27,7 +27,7 @@ def outputLines = [
 
 
 for (i  in outputLines ){
-def newFile1 = new File("/var/lib/jenkins/workspace/groovy/vars" ,"test.txt").append(i+"\n")
+def newFile1 = new File("/var/lib/jenkins/workspace/groovy/vars" ,"test.txt").append("\n"+i)
 
 }
 
