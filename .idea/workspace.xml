@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69169d30-0dfd-47fa-b3c4-3cfd67177b8e" name="Default Changelist" comment="" />
+    <list default="true" id="69169d30-0dfd-47fa-b3c4-3cfd67177b8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/vars/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vars/test.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,17 +97,17 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1874" height="275" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1581858932461" />
-    <state x="188" y="88" key="MergeDialog" timestamp="1581862276994">
+    <state x="188" y="88" key="MergeDialog" timestamp="1581882434095">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="188" y="88" key="MergeDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1581862276994" />
-    <state x="672" y="238" key="MultipleFileMergeDialog" timestamp="1581862277003">
+    <state x="188" y="88" key="MergeDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1581882434095" />
+    <state x="672" y="238" key="MultipleFileMergeDialog" timestamp="1581882434105">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="672" y="238" key="MultipleFileMergeDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1581862277003" />
-    <state x="753" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581881422860">
+    <state x="672" y="238" key="MultipleFileMergeDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1581882434105" />
+    <state x="753" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581882413127">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="753" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1581881422860" />
+    <state x="753" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1581882413127" />
   </component>
 </project>
