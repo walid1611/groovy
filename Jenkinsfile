@@ -34,15 +34,9 @@ def Apppend_File = { List <String> ss ->
 
     }
 
+    }
 
 assert Apppend_File(outputLines)
-
-
-
-
-}
-
-
 
 
 
