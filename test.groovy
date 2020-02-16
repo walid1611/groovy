@@ -10,11 +10,9 @@ def example1() {
             'Line three of output example'
     ]
 
+    def newFile = new File("/var/lib/jenkins/workspace/groovy/vars" ,"test.txt").createNewFile()
 
-
-        def newFile = new File("/var/lib/jenkins/workspace/groovy/vars" ,"test.txt")
-
-                .withWriter {
+        def newFile1 = new File("/var/lib/jenkins/workspace/groovy/vars" ,"test.txt").withWriter {
 
             writer -> outputLines.each {
                 line -> writer.writeLine(line)
