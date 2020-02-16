@@ -13,7 +13,8 @@ checkout scm
 stage ('test-groovy') {
 
 
-groovy test.groovy
+ def lis  = new File( 'test.txt') as String []
+        println lis
 
 
 
