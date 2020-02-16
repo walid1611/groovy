@@ -25,7 +25,7 @@ def outputLines = [
     'Line three of output example'
 ]
 
- code.example1(outputLines)
+ code.example1()
 }
 
 
