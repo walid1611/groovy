@@ -3,7 +3,7 @@ def example1() {
 
     try {
     def lis  = new File( "/var/lib/jenkins/workspace/groovy",'haiku.txt') as String []
-    lis[0]
+   println lis[0]
     } catch(e) {
         echo 'There was an error'
     }
