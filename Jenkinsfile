@@ -13,7 +13,7 @@ checkout scm
 stage ('test-groovy') {
 
 
-load test.groovy
+ def thing = load 'test.groovy'
 
 
 
