@@ -12,7 +12,7 @@ def example1() {
 
 
 
-        def newFile1 = new File("/var/lib/jenkins/workspace/groovy/vars" ,"test.txt").withWriter {
+        def newFile1 = new File("/var/lib/jenkins/workspace/groovy/vars" ,"test.txt").append {
 
             writer -> outputLines.each {
                 line -> writer.writeLine(line)
