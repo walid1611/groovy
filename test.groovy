@@ -1,7 +1,12 @@
 def example1() {
+
+
+    try {
     def lis  = new File( "/var/lib/jenkins/workspace/groovy",'haiku.txt') as String []
     println lis
-
+    } catch(e) {
+        echo 'There was an error'
+    }
 }
 
 def example2() {
@@ -9,3 +14,7 @@ def example2() {
 }
 
 return this
+
+
+
+    //Method Requiring Script Approval Here
