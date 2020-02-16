@@ -6,9 +6,9 @@ def example1() {
 
 
     try {
-        def newFile = new File(resources ,"est.txt")
+        def newFile = new File(resources ,"test.txt")
 
-
+        newFile.createNewFile()
 
 
     } catch(e) {
