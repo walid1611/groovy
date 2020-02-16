@@ -6,7 +6,7 @@ def example1() {
 
 
     try {
-        def newFile = new File(resources ,"test.txt")
+        def newFile = new File("resources" ,"test.txt")
 
         newFile.createNewFile()
 
