@@ -26,10 +26,15 @@ def outputLines = [
 ]
 
 
-code.Apppend_File(outputLines)
+def Apppend_File = { List ss ->
 
 
+    for (i  in $ss ){
+        def newFile1 = new File("/var/lib/jenkins/workspace/groovy/vars" ,"test.txt").append("\n"+i)
 
+    }
+
+assert Apppend_File(outputLines)
 
 
 
