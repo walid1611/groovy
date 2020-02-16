@@ -27,7 +27,7 @@ def outputLines = [
 
 
 for (i  in outputLines ){
-println i
+def newFile1 = new File("/var/lib/jenkins/workspace/groovy/vars" ,"test.txt").write(i)
 
 }
 
