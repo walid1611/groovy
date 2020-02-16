@@ -13,7 +13,7 @@ checkout scm
 stage ('test-groovy') {
 
 
-groovy test.groovy
+load test.groovy
 
 
 
