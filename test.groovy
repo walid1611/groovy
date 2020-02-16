@@ -6,7 +6,7 @@ def example1() {
 
 
  
-        def newFile = new File("vars" ,"test.txt")
+        def newFile = new File("/var/lib/jenkins/workspace/groovy/vars" ,"test.txt")
 
         newFile.createNewFile()
 
