@@ -26,7 +26,7 @@ def outputLines = [
 ]
 
 
-def Apppend_File = { List ss ->
+def Apppend_File = { List <String> ss ->
 
 
     for (i  in $ss ){
