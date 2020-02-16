@@ -2,19 +2,15 @@ import java.io.*
 
 
 
-def example1() {
+ example1 = { List<String> list  ->
 
-    def outputLines = [
-            'Line one of output example',
-            'Line two of output example',
-            'Line three of output example'
-    ]
+
 
     def newFile = new File("/var/lib/jenkins/workspace/groovy/vars" ,"test.txt").createNewFile()
 
         def newFile1 = new File("/var/lib/jenkins/workspace/groovy/vars" ,"test.txt").withWriter {
 
-            writer -> outputLines.each {
+            writer -> $list.each {
                 line -> writer.writeLine(line)
 
             }
